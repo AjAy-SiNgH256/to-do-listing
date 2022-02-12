@@ -1,9 +1,9 @@
 import React from 'react'
-import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from './components/Layout/Header/header';
 
 export default function App() {
   return (
-    
+    <Header/>
   );
 }

@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+}
+.navbar_link{
+    margin: 0 18px;
+    font-size: 19px;
+}
+.logo{
+    font-size: 26px;
+    font-weight: 600;
+}
