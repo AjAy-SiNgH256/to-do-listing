@@ -3,6 +3,7 @@ import { Col } from "react-bootstrap";
 import { Navbar } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { Nav } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import styles from './header.module.css';
 
 export default function Header() {
@@ -13,8 +14,8 @@ export default function Header() {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link Link="/" className={`${styles.navbar_link}`}>Home</Nav.Link>
-                        <Nav.Link Link="/summary" className={`${styles.navbar_link}`}>Summary</Nav.Link>
+                    <Link to="/" className={`${styles.navbar_link}`}><Nav>Home</Nav></Link>
+                    <Link to="/summary" className={`${styles.navbar_link}`}><Nav>Summary</Nav></Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

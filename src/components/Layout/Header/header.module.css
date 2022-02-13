@@ -6,6 +6,13 @@
 .navbar_link{
     margin: 0 18px;
     font-size: 19px;
+    text-decoration: none;
+    color: #fff;
+    transition: .2s;
+}
+.navbar_link:hover{
+    opacity: .75;
+    color: #fff;
 }
 .logo{
     font-size: 26px;
